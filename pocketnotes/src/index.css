@@ -1,0 +1,32 @@
+/* font family */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+/* remove default styling */
+body{
+    margin: 0;
+}
+
+:root{
+    font-family: 'Roboto', sans-serif;
+    --Bg-Theme:#DAE5F5;
+    --dark-blue:#001F8B;
+    -webkit-tap-highlight-color: transparent;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+    color: #FFFFFF;
+    background-color: var(--dark-blue);
+  }
+  
+button:active {
+    scale: 0.9;
+    opacity: 0.8;
+  }
+  
+  @media screen and (max-width: 767px) {
+    .remove {
+      display: none;
+    }
+  }
